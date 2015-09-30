@@ -63,7 +63,7 @@ This library consist of nine custom methods, `hasVowels()` , `toUpper()`, `toLow
 4. ######  Method _`ucFirst()`_.
 
     This methods can be used to to capitize a sentence, it returns a string with all the words capitalized.
-    ``` JavaSript
+    ``` JavaScript
         var sentence = "i want this sentence capiatalized";
             sentence.ucFirst(); // returns I Want This Sentence Capitalized
     ```
