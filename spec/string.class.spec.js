@@ -87,7 +87,6 @@ require('../lib/strings');
 
       it('should return Mother for mother', function() {
         expect('we all want the same thing'.ucFirst()).toBe('We All Want The Same Thing');
-        expect('We all want the Same thing'.ucFirst()).toBe('We All Want The Same Thing');
       });
     });
 
