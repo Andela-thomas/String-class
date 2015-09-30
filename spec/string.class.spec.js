@@ -68,7 +68,7 @@ require('../lib/strings');
 
       it('should return mother for MOTHER', function() {
         expect('MOTHER'.toLower()).toBe('mother');
-        expect('MOTHER is the WOrld~`!@#$%^&*()_-=+|\}{:;\'"<>/?'.toLower()).toBe('mother is the world~`!@#$%^&*()_-=+|\}{:;\'"<>/?');
+        expect('MOTHER is the WOrld~`!@#$%^&*()_-=+|[]{}:;\'"<>/?'.toLower()).toBe('mother is the world~`!@#$%^&*()_-=+|[]{}:;\'"<>/?');
       });
     });
 
