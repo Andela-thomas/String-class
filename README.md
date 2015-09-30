@@ -6,17 +6,19 @@ To use this methods on both node environment and html page inclusion. First down
 
 1. ###### Node
     To use _**`StringJs`**_ on your node  application require it  in your node app
-    ``` JavaSript
+    ``` JavaScript
+    
         // just to let you know express has nothing to do with our stringJs
         var express = require('express');
-        app = express();
-        require("./js/strings");
+            app = express();
+            require("./js/strings");
 
         // now we can have stringjs methods all to our selves
         var random = "sphynx";
             random.hasVowels(); // return => false
         // happy hunting
     ```
+    
 
 2. ###### Html page
     To use _**`StringJs`**_ in your page include it an the end of your html page
@@ -38,9 +40,10 @@ This library consist of nine custom methods, `hasVowels()` , `toUpper()`, `toLow
 
     This method can be used to check if a string has vowels, it will return a boolean Datatype of true if vowels exists and false if they dont.
     ``` JavaScript
-        var feeling = "This is the best day ever";
+        var feeling = "This is the best day ever",
+            random = "sphynx";
+            
             feeling.hasVowels(); // return => true
-        var random = "sphynx";
             random.hasVowels(); // return => false
     ```
 2. ######  Method _`toUpper()`_.
