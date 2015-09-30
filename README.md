@@ -1,7 +1,44 @@
 # StringJs
 This library extends the functionality of the string class by providng you with methods that you canuse to manipulate strings to achieve maximum perfomance. Mosts of this methods have been implemented using regular epxressions.
 
-# usage
+# Running tests
+The tests of _**`StringJs`**_ are done using `Jasmine-node`, you have to download it to use is it, luckly i have already included it in the `package.json`
+
+ ``` JSON
+    {
+      "name": "string-class",
+      "version": "1.0.0",
+      "description": "Extending the string class",
+      "main": "index.js",
+      "scripts": {
+        "test": "./node_modules/.bin/jasmine-node spec"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Andela-thomas/string-class.git"
+      },
+      "author": "Nyambati Thomas",
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/Andela-thomas/string-class/issues"
+      },
+      "homepage": "https://github.com/Andela-thomas/string-class#readme",
+      "dependencies": {
+        "jasmine-node": "^1.14.5"
+      }
+    }
+```
+As you can see we have jasmine node as our dependency, therefore just run npm install in your command-line
+```
+    $ npm install
+```
+and you will be ready to go, to run the test run in the command-line
+```
+    $ npm test
+```
+and see the magic happen.
+
+# Usage
 To use this methods on both node environment and html page inclusion. First download _**`StringJs`**_ and include into your `js` folder _**npm not available at the moment**_
 
 1. ###### Node
