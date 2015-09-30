@@ -49,7 +49,7 @@ require('../lib/strings');
 
       it('should return MOTHER for mother', function() {
         expect('mother is awesome'.toUpper()).toBe('MOTHER IS AWESOME');
-        expect('The world IS, rouND'.toUpper()).toBe('THE WORLD IS, ROUND');
+        expect('The world IS, rouND~`!@#$%^&*()_-=+|\}{:;\'"<>/?'.toUpper()).toBe('THE WORLD IS, ROUND~`!@#$%^&*()_-=+|\}{:;\'"<>/?');
       });
     });
 
@@ -68,7 +68,7 @@ require('../lib/strings');
 
       it('should return mother for MOTHER', function() {
         expect('MOTHER'.toLower()).toBe('mother');
-        expect('MOTHER is the WOrld'.toLower()).toBe('mother is the world');
+        expect('MOTHER is the WOrld~`!@#$%^&*()_-=+|\}{:;\'"<>/?'.toLower()).toBe('mother is the world~`!@#$%^&*()_-=+|\}{:;\'"<>/?');
       });
     });
 
